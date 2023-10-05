@@ -15,7 +15,7 @@ class Customer(Base):
   def __init__(self, name):
     self.name = name
 
-
+# Room class
 class Room(Base):
   __tablename__ = 'rooms'
 
